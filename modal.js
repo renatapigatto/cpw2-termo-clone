@@ -51,7 +51,7 @@ function clearInputBox (){
 function createAndShowLink(word){
     var encryptedWord = encryptWord(word)
 
-    var link = window.location.host + '?word=' + encryptedWord
+    var link = window.location + '?word=' + encryptedWord
 
     const outputDiv = document.querySelector(".output-div")
     const linkParagraph = document.createElement("p")
